@@ -12,6 +12,7 @@ body {
     background-size: cover;
     font-family: "Poppins", serif;
     overflow-x: hidden;
+    background-attachment:fixed;
 
 }
 
@@ -55,7 +56,7 @@ nav a {
     left: 2vh;
 }
 
-.part1 h2{
+h2{
     font-weight: 1000;
     font-size: 50px;
     color: #ffffff;
@@ -114,6 +115,88 @@ nav a {
 .ads-all:hover {
     transform: scale(1.2); /* Aumenta a imagem para 120% do tamanho original */
 }
+
+/* Segunda Parte */
+
+.segundasecao { 
+    display: flex;
+    position: relative;
+    top: 20px;
+    gap: 20px;
+    left: 2vh;
+}
+
+h2{
+    font-weight: 1000;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.text1 {
+    position: relative;
+    top: 30px;
+    background-color: #ffffff;
+    color: black;   
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: center;
+    height: 150px;
+    padding: 20px;
+}
+
+.part2 img {
+    width: 50vh;
+    border-radius: 10px;
+}
+
+.parte-2 {
+    background-color: rgb(117, 0, 0);
+    max-width: 800px;
+    height: 550px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    position: relative;
+    top: 90px;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.ads img{
+    width: 23vh;
+    height: 27vh;
+    border-radius: 10px;
+}
+
+.ads{
+    position: relative;
+    left: 340px;
+    top: -160px;
+    display: flex;
+    gap: 30px;
+    
+}
+
+.ads-all{
+    transition: transform 0.1s ease-in-out; /* Transição suave ao aumentar */
+}
+
+.ads-all:hover {
+    transform: scale(1.2); /* Aumenta a imagem para 120% do tamanho original */
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 480px) {
