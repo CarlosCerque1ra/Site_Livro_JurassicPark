@@ -27,3 +27,16 @@ prev.onclick = () =>{
     }
     lista[ativo].classList.add('ativo')
 }
+
+function typeText(element, text, index = 0) {
+    if (index < text.length) {
+      element.innerHTML += text.charAt(index);
+      index++;
+      setTimeout(function() {
+        typeText(element, text, index);
+      }, 100);
+    }
+  }
+  
+
+  
